@@ -324,13 +324,17 @@ nav {
 .full-screen-portfolio .container-fluid,
 .full-screen-portfolio .col-md-4, .col-md-8 {
   padding-left: 0px;
+  
   padding-right: 0px;
+  display: flex;
+  
 }
 
 
 .portfolio-item img {
   width: 100%;
   overflow: hidden;
+  
 }
 
 .portfolio-item .thumb {
@@ -781,7 +785,7 @@ footer a:hover {
 
  .services {
   background-color: #232323;
-  padding: 65px 0px;
+  padding: 35px 0px;
  }
 
  .services .service-item {
@@ -809,11 +813,12 @@ footer a:hover {
 
 .services .service-item h4 {
   margin-top: 20px;
+  
   color: #fff;
-  font-size: 20px;
+  font-size: 60px;
   text-transform: capitalize;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  
 }
 
 .services .service-item p {
