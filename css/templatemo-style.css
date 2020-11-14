@@ -1149,6 +1149,7 @@ footer a:hover {
   letter-spacing: 0.5px;
   text-transform: capitalize;
   font-weight: 300;
+  
 }
 
 .single-blog-post .text-content p {
@@ -1164,6 +1165,10 @@ footer a:hover {
   border-top: 1px solid #414141;
   border-bottom: 1px solid #414141;
   padding: 8px 0px 10px 0px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .single-blog-post .tags-share ul {
