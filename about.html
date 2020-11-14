@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link rel="shortcut icon" href="logo.png" type="logo.png" />
+    <link rel="logo.png" href="logo.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>About Highway - Free CSS Template</title>
+        <title>Tárgyaló neve - Tárgyaló kereső</title>
 <!-- 
 
 Highway Template
@@ -40,10 +42,23 @@ https://templatemo.com/tm-520-highway
     <div class="page-heading">
         <div class="container">
             <div class="heading-content">
-                <h1>Tárgyaló <em>neve</em></h1>
+				
+                <h2 onclick="goBack()"; style="cursor: pointer">Vissza</h2>
+				<script>
+				function goBack() {
+				  window.history.back();
+				}
+				</script>
+				<h1 style="text-align: center">Tárgyaló <em>neve</em></h1>
+				
             </div>
+			
         </div>
     </div>
+	
+	
+	
+	
 	<div class="services">
         
                 
@@ -194,7 +209,9 @@ https://templatemo.com/tm-520-highway
                     <span>Rövid leírás</span>
                     <p>Vivamus vitae libero euismod, pretium magna a, vulputate metus. Curabitur et arcu felis. Praesent aliquet lectus in purus viverra varius. 
                     <br><br>Suspendisse et rutrum nisl. Phasellus porttitor metus vel justo blandit, in finibus neque elementum. Nullam semper, turpis quis egestas consequat, dui eros tristique lectus, ac euismod ex quam id mauris.</p>
-                    
+                    <a style="color : #fff";href="#">
+					<h2 class="text-content"; style="font-size: 25px"; style="color : #fff"><br>Tovább a hirdető honlapjára</h2>
+					</a>
                 </div>
             </div>
         </div>
@@ -205,50 +222,44 @@ https://templatemo.com/tm-520-highway
         <div class="container">
             <div class="col-md-4 col-sm-6">
                 <div class="table-item">
-                    <h4>$250/mo</h4>
-                    <span>Starter Plan</span>
+                    <h4>1400Ft/óra</h4>
+                    <span>Kezdő csomag</span>
                     <ul>
-                    	<li>Xeon 8 Cores 3.2GHz</li>
-                        <li>RAM 32 GB</li>
-                        <li>10 TB RAID 1</li>
-                        <li>1,000 TB Transfer</li>
-                        <li>24-hour Support</li>
+                    	<li> <br></li>
+                        <li> <br></li>
+                        <li> <br> </li>
+                        <li>  <br> </li>
+                        <li>  <br> </li>
                     </ul>
-                    <div class="simple-btn">
-                        <a href="#">Details</a>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="table-item premium-item">
-                    <h4>$420/mo</h4>
-                    <span>Standard Plan</span>
+                    <h4>1600Ft/óra</h4>
+                    <span>Normál Csomag</span>
                     <ul>
-                        <li>Xeon 16 Cores 3.2GHz</li>
-                        <li>RAM 64 GB</li>
-                        <li>20 TB RAID 1</li>
-                        <li>2,000 TB Transfer</li>
-                        <li>15-minute Quick Support</li>
+                        <li>Projektor használat</li>
+                        <li> <br></li>
+                        <li> <br> </li>
+                        <li>  <br> </li>
+                        <li>  <br> </li>
                     </ul>
-                    <div class="simple-btn">
-                        <a href="#">Details</a>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="table-item">
-                    <h4>$750/mo</h4>
-                    <span>Premium Plan</span>
+                    <h4>2000Ft/óra</h4>
+                    <span>Premium Csomag</span>
                     <ul>
-                        <li>Xeon 32 Cores 3.2GHz</li>
-                        <li>RAM 128 GB</li>
-                        <li>10 TB SSD RAID 10</li>
-                        <li>6,000 TB Transfer</li>
-                        <li>1-minute Instant Support</li>
+                        <li>Projektor használat</li>
+                        <li>Étel/ital beszerzése megegyezés szerint</li>
+                        <li>Poharak / étkészlet biztosítása</li>
+                        <li>Egyedi igények szerinti előkészítés</li>
+                        <li>  <br> </li>
                     </ul>
-                    <div class="simple-btn">
-                        <a href="#">Details</a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -258,59 +269,15 @@ https://templatemo.com/tm-520-highway
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>Copyright &copy; 2018 Company Name 
+                <p>Targyalokereso &copy; 2020 
     
-    | Designed by TemplateMo</p>
+    </p>
             </div>
         </div>
     </footer>
 
 
-      <!-- Modal button -->
-    <div class="popup-icon">
-      <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
-    </div>  
-
-    <!-- Modal -->
-    <div id="modal" class="modal">
-      <!-- Modal Content -->
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h3 class="header-title">Say hello to <em>Highway</em></h3>
-          <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
-        </div>
-        <!-- Modal Body -->
-        <div class="modal-body">
-          <div class="col-md-6 col-md-offset-3">
-            <form id="contact" action="" method="post">
-                <div class="row">
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="btn">Send Message Now</button>
-                      </fieldset>
-                    </div>
-                </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     
 
