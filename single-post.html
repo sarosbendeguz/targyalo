@@ -26,6 +26,14 @@ https://templatemo.com/tm-520-highway
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		
+		<style type="text/css">
+		   .mobileHide { display: inline;}
+		   /* Smartphone Portrait and Landscape */
+		   @media only screen
+		   and (min-device-width : 320px)
+		   and (max-device-width : 480px){  .mobileHide { display: none;}}
+		</style>
     </head>
 
 <body>
@@ -76,9 +84,9 @@ https://templatemo.com/tm-520-highway
                     
                     <div class="archives">
                         <div class="sidebar-heding">
-                            <h2>Kerületek</h2>
+                            <h2 class="mobileHide">Kerületek</h2>
                         </div>
-                        <ul>
+                        <ul class="mobileHide">
                             <li><a href="#">> I. kerület (4)</a></li>
                             <li><a href="#">> II. kerület (16)</a></li>
                             <li><a href="#">> III. kerület (5)</a></li>
@@ -126,7 +134,7 @@ https://templatemo.com/tm-520-highway
                     
                     <div class="archives">
                         
-                        <ul>
+                        <ul class="mobileHide">
                             <p></p>
 							<li><a href="#">> XV. kerület (4)</a></li>
                             <li><a href="#">> XVI. kerület (16)</a></li>
