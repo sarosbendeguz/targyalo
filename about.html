@@ -26,6 +26,13 @@ https://templatemo.com/tm-520-highway
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<style type="text/css">
+		   .mobileHide { display: inline;}
+		   /* Smartphone Portrait and Landscape */
+		   @media only screen
+		   and (min-device-width : 250px)
+		   and (max-device-width : 800px){  .mobileHide { display: none;}}
+		</style>
     </head>
 
 <body>
@@ -42,8 +49,9 @@ https://templatemo.com/tm-520-highway
     <div class="page-heading">
         <div class="container">
             <div class="heading-content">
-				
-                <h2 onclick="goBack()"; style="cursor: pointer">Vissza</h2>
+				<div  class="mobileHide">
+                <h2 onclick="goBack()">Vissza</h2>
+				</div>
 				<script>
 				function goBack() {
 				  window.history.back();

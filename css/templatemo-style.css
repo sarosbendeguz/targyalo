@@ -30,6 +30,10 @@ body, html {
   display: none;
 }
 
+.h2.mobileHide{
+  display: none;
+}
+
 .page-heading {
   background-image: url(../img/heading_bg.jpg);
   background-repeat: no-repeat;
